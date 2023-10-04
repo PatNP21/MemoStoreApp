@@ -1,0 +1,10 @@
+#addModalWindow {
+    width: 40vw;
+    height: 40vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+#fileInput {
+    display: none;
+}

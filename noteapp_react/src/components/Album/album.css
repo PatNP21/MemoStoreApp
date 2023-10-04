@@ -1,0 +1,11 @@
+.switchleft {
+    grid-area: 'left';
+    left: 0;
+}
+.switchright {
+    grid-area: 'right';
+    right: 0;
+}
+.section {
+    grid-area: 'section';
+}

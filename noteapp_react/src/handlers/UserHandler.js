@@ -9,7 +9,7 @@ export class UserHandler {
     }
 
     loginToTheService(data) {
-        return axios.post(`${this.baseURL}/login_/`, data)
+        return axios.post(`/login_/`, data)
     }
 }
 

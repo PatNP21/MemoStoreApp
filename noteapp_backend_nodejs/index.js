@@ -123,7 +123,7 @@ app.post('/registerUser', async (req, res) => {
 
 //app.delete('/deleteUser/:id', )
 
-app.post('/login', async (req, res) => {
+app.post('/login_', async (req, res) => {
     const {email, password} = req.body
     let result
     user_connection.find({'email': email, 'password': password}).toArray().then(data => {

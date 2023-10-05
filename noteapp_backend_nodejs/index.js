@@ -51,11 +51,6 @@ const upload = multer({
  })
 dotenv.config()
 
-//Nodemailer communication
-
-
-//database communication
-//const MongoClient = mongodb.MongoClient
 let aliasUri = process.env.MONGODB_URI
 let password = 'NoHablo30082022'
 let db, user_connection
